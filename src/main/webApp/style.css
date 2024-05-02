@@ -1,0 +1,49 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef;
+}
+
+.navbar {
+    background-color: #343a40;
+}
+
+.container {
+    padding-top: 20px;
+}
+
+.game-info {
+    margin: 20px 0;
+}
+
+.timer {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.center-letter, .player-score, .player-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.player-score {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.notification {
+    display: none;
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1000;
+}
